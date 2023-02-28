@@ -6,7 +6,7 @@ const apiV1Router = require('./routes/apiV1Router');
 
 const app = express();
 
-app.use(bodyParser.json())
+app.use(bodyParser.json());
 
 apiV1Router(app);
 
